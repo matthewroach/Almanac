@@ -3,7 +3,7 @@
 	"title" 			: "Almanac",
 	"url" 				: "blog",
 	"homeCount" 	: 3,
-	"pageFolder"	: "blog",
+	"pageFolder"	: "pages",
 
 	"dateFormat"	: "EEEE, d yyyy",
 

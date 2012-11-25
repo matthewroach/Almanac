@@ -1,0 +1,18 @@
+
+{
+	"title" 			: "Almanac",
+	"url" 				: "blog",
+	"homeCount" 	: 3,
+	"pageFolder"	: "blog",
+
+	"dateFormat"	: "EEEE, d yyyy",
+
+	"templates" : {
+		"home" 	 : "/a/templates/index.inc",
+		"header" : "/a/templates/global/header.inc",
+		"footer" : "/a/templates/global/footer.inc",
+		"view" 	 : "/a/templates/pages/view.inc",
+		"_404" 	 : "/a/templates/error/404.inc"
+	}
+
+}

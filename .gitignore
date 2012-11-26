@@ -3,11 +3,11 @@
 ## OpenBD
 #################
 
-#*.xml
-#*.dll
-#*.bak.*
-#rtelogs*
-#WEB-INF/bluedragon/work/temp
+*.xml
+*.dll
+*.bak.*
+rtelogs*
+WEB-INF/bluedragon/work/temp
 
 
 #################

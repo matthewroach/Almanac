@@ -21,7 +21,7 @@ This repository contains everything OpenBD related to get you started, but you w
 
 ### Running Locally
 
-To run this locally on your computer you need to ensure you have Java installed on your machine, I recommend 1.6. If your on a Windows machine you can use the [Jetty Desktop Launcher](http://www.aw20.co.uk/codegarden/jettylauncher/) to run up the application, or if on a linux based machine you can use the [Ready2Run](http://openbd.org/download/nightly/jetty-openbd.zip) download from the OpenBD website.
+To run this locally on your computer you need to ensure you have Java installed on your machine, I recommend 1.6. If you're on a Windows machine you can use the [Jetty Desktop Launcher](http://www.aw20.co.uk/codegarden/jettylauncher/) to run up the application, or if you are on a linux based machine you can use the [Ready2Run](http://openbd.org/download/nightly/jetty-openbd.zip) download from the OpenBD website.
 
 #### Windows
 
@@ -62,7 +62,7 @@ The following instructions can be used for linux based computers or on a linux s
 
 Now you have Almanac all up and running you can now start to play around with it.
 
-There are some basic settings associated with Almanac to tell it where to look for you blog posts, templates, the url prefix you wish to use, date format, and how many posts you wish to have on your homepage.
+There are some basic settings associated with Almanac to tell it where to look for your blog posts, templates, the url prefix you wish to use, date format, and how many posts you wish to have on your homepage.
 
 The settings file is located in the root, and called settings.json and the default settings are :
 
@@ -95,7 +95,7 @@ This is used to tell the system what url you wish to use to access you individua
 
 **homeCount**
 
-This tells the system how many article to display on the homepage of you site, if you put a number higher than the amount of articles you have in your system it will only render the ones that are avialble.
+This tells the system how many articles to display on the homepage of you site, if you put a number higher than the amount of articles you have in your system it will only render the ones that are avialble.
 
 **pageFolder**
 
@@ -131,7 +131,7 @@ We structure the file in a JSON format with the body being in Markdown format
 
 The file is self explanitory, the title is the title of your article, the date, is the date you wish to associated with the article, and the body is the Markdown format body for your article.
 
-One not is that are the body is wrapped inside double quotes "", when Markdown uses double quotes in it's syntax you need to replace them with single quotes ' '.
+**Note** As the body is wrapped inside double quotes "", when Markdown uses double quotes in it's syntax you need to replace them with single quotes ' '.
 
 
 

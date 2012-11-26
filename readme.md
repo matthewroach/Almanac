@@ -144,5 +144,7 @@ I am running my own blog using Almanac : [matthewroach.me](http://matthewroach.m
 
 Help with coming up with the name to follow along with my obsession of Back to the Future names for projects : [Stuart Robson - alwaystwisted.com](http://www.alwaystwisted.com/ "Slightly Bizarre Ramblings Of A Front-End Developer")
 
+My amazing wife [@pamelaroach](http://twitter.com/pamelaroach) for being supportive and proof reading for me 
+
 
 

@@ -12,6 +12,7 @@ component {
 
     application.m               =  CreateObject( "java" , "com.petebevin.markdown.MarkdownProcessor" );
     application.settings        = deserializeJSON( staticSettings );
+    application.pages           = new api.private.pages();
 
   }
 

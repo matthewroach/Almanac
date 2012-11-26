@@ -1,9 +1,9 @@
 <cfsilent>
 <cfscript>
 
-	pages 						= new api.private.pages();
-
+	_pages 						= application.pages;
 	_settings 				= application.settings;
+
   requestString   	= cgi.QUERY_STRING;
   requestData				= listToArray( cgi.QUERY_STRING, '/' );
 
@@ -17,7 +17,7 @@
 
 		if ( _settings.url == firstQString && arrayLen( requestData ) >= 2 ) {
 
-			page = pages.view( requestAction );
+			page = _pages.view( requestAction );
 
 		} else {
 
@@ -27,7 +27,7 @@
 
 	} else {
 
-		page 							= pages.home();
+		page 							= _pages.home();
 
 	}
 

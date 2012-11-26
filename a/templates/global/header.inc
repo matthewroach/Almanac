@@ -9,8 +9,7 @@
 
   <cfset siteCss = [
     "/a/css/reset.css",
-    "/a/css/flu.css",
-    "/a/css/styles.css"
+    "/a/css/flu.css"
   ]>
   <cfstylesheet src="#siteCss#" path="/" media="screen,projection" minimize="true" />
 

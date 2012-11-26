@@ -5,7 +5,7 @@
 	"homeCount" 	: 3,
 	"pageFolder"	: "pages",
 
-	"dateFormat"	: "EEEE, d yyyy",
+	"dateFormat"	: "EEEE, d MMMM yyyy",
 
 	"templates" : {
 		"home" 	 : "/a/templates/index.inc",

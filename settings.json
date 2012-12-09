@@ -5,13 +5,14 @@
 	"homeCount" 	: 3,
 	"pageFolder"	: "pages",
 
-	"dateFormat"	: "EEEE, d MMMM yyyy",
+	"dateFormat"	: "EEEE, d MMMM, yyyy",
 
 	"templates" : {
 		"home" 	 : "/a/templates/index.inc",
 		"header" : "/a/templates/global/header.inc",
 		"footer" : "/a/templates/global/footer.inc",
 		"view" 	 : "/a/templates/pages/view.inc",
+		"archive": "/a/templates/pages/archive.inc",
 		"_404" 	 : "/a/templates/error/404.inc"
 	}
 

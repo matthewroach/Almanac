@@ -19,7 +19,13 @@
 
 			page = _pages.view( requestAction );
 
-		} else {
+		} else if ( _settings.url == firstQString ) {
+
+			page = _pages.all();
+
+		}
+
+		else {
 
 			page.template 	= _settings.templates._404;
 

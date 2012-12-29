@@ -11,6 +11,7 @@
 	if ( requestString != '' ) {
 
 		firstQString 		= requestData[1];
+
 		if ( arrayLen( requestData ) == 2 ) {
 			requestAction 	= requestData[2];
 		}
@@ -22,6 +23,10 @@
 		} else if ( _settings.url == firstQString ) {
 
 			page = _pages.all();
+
+		} else if ( _settings.url & '.xml' == firstQString ) {
+
+			page = _pages.feed();
 
 		}
 

@@ -13,6 +13,7 @@
 		"footer" : "/a/templates/global/footer.inc",
 		"view" 	 : "/a/templates/pages/view.inc",
 		"archive": "/a/templates/pages/archive.inc",
+		"feed"   : "/a/templates/feeds/all.inc",
 		"_404" 	 : "/a/templates/error/404.inc"
 	}
 

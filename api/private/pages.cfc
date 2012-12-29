@@ -41,6 +41,18 @@ component {
 
 	}
 
+	function feed( ) {
+
+		items = getHome( 99999 );
+
+		page = {
+			template 	: application.settings.templates.feed,
+			content 	: items
+		};
+
+		return page;
+
+	}
 
 	function getFile( page ) {
 

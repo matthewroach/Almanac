@@ -137,7 +137,7 @@ The file is self explanitory, the title is the title of your article, the date, 
 
 # Examples
 
-I am running my own blog using Almanac : [matthewroach.me](http://matthewroach.me) on a VS0 Mini VPS from [HostMedia UK](http://gigaw.at/?/z739049)
+I am running my own blog using Almanac : [matthewroach.me](http://matthewroach.me) on a VPS from [Digital Ocean](https://www.digitalocean.com/?refcode=a8df971bd278)
 
 
 # License
